@@ -5,7 +5,7 @@ const news = require("./data/mock.json");
 
 app.use(express.json());
 app.use(express.urlencoded());
-app.use(cors());
+//app.use(cors());
 app.get("/articles", (req, res) => {
   try {
     const { page, limit } = req.query;
