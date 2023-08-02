@@ -3,6 +3,8 @@ const cors = require("cors");
 const app = express();
 const news = require("./data/mock.json");
 
+
+
 app.use(express.json());
 app.use(express.urlencoded());
 //app.use(cors());
